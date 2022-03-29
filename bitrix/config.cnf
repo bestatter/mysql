@@ -1,0 +1,13 @@
+[mariadb]
+innodb_strict_mode=OFF
+
+[mysqld]
+sql-mode=""
+default-time-zone = Europe/Moscow
+transaction-isolation = READ-COMMITTED
+innodb_flush_method=O_DIRECT
+tmp_table_size=128M
+max_heap_table_size=128M
+innodb_flush_log_at_trx_commit=2
+innodb_buffer_pool_size=512M
+query_cache_limit=512M
